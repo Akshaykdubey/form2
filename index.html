@@ -16,12 +16,16 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="container" style="background: linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6))">
+        <div class="container">
             <div class="row">
                 <section>
                 <div class="wizard">
                     <div class="wizard-inner">
-                        <div class="connecting-line"></div>
+					<div class="row">
+						<div class="col-xs-4">
+						</div>
+						<div class="col-xs-4">
+                        <div class="connecting-line"></div> 
                         <ul class="nav nav-tabs" role="tablist">
                             <!--{% if token == False: %}-->
                                 <li role="presentation" class="active">
@@ -71,7 +75,11 @@
                                 </a>
                             </li>
                         </ul>
-                    </div>
+						</div>
+						<div class="col-xs-4">
+						</div>
+					</div>
+					</div>
 
                     <div class="wizard-outer">
                         <div class="container">
@@ -85,7 +93,7 @@
 
                                         <div class="row">
                                             <div class="col-xs-4"></div>
-                                            <div class="col-xs-4" style="background-color: white">
+                                            <div class="col-xs-4">
                                                 <div class="row">
                                                     <H3 class="text-uppercase text-center">Create your Account</H3>
                                                 </div>
@@ -110,7 +118,7 @@
                                                 </div>
                                                 <div class="row btn-login">
                                                 <ul class="list-inline text-center">
-                                                    <li><button type="button" class="btn btn-success next-step ">Next</button></li>
+                                                    <li><button type="button" class="btn btn-primary next-step">Next</button></li>
                                                 </ul>
                                                 </div>
                                             </div>
@@ -144,7 +152,7 @@
                                                 </div>
                                                 <ul class="list-inline text-center">
                                                     <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
-                                                    <li><button type="button" class="btn btn-success next-step">Next</button></li>
+                                                    <li><button type="button" class="btn btn-primary next-step">Next</button></li>
                                                 </ul>
                                             </div>
                                             <div class="col-xs-4"></div>
@@ -188,7 +196,7 @@
                                                 </div>
                                                 <ul class="list-inline text-center">
                                                     <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
-                                                    <li><button type="button" class="btn btn-success next-step">Next</button></li>
+                                                    <li><button type="button" class="btn btn-primary next-step">Next</button></li>
                                                 </ul>
                                             </div>
                                             <div class="col-xs-4"></div>
@@ -209,7 +217,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="row">
-                                                    <div class="col-xs-6" style="padding-right: 0px">
+                                                    <div class="col-xs-6">
                                                         <select name="Month" class="form-control">
 															<option selected>Month</option>
 															<option value="january">January</option>
@@ -226,7 +234,7 @@
 															<option value="december">December</option>
                                                         </select>
                                                     </div>
-                                                    <div class="col-xs-6"  style="padding-left: 0px">
+                                                    <div class="col-xs-6">
                                                         <select name="Year" class="form-control">
 															<option selected>Year</option>
 															<option value="2016">2016</option>
@@ -248,7 +256,7 @@
                                                 </div>
                                                 <ul class="list-inline text-center">
                                                     <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
-                                                    <li><button type="button" class="btn btn-success next-step">Next</button></li>
+                                                    <li><button type="button" class="btn btn-primary next-step">Next</button></li>
                                                 </ul>
                                             </div>
                                             <div class="col-xs-4"></div>
@@ -294,7 +302,7 @@
                                                 </div>
                                                 <ul class="list-inline text-center">
                                                     <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
-                                                    <li><button type="button" class="btn btn-success next-step">Next</button></li>
+                                                    <li><button type="button" class="btn btn-primary next-step">Next</button></li>
                                                 </ul>
                                             </div>
                                             <div class="col-xs-4"></div>
